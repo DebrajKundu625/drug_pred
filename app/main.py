@@ -1,6 +1,6 @@
 from fastapi import FastAPI,UploadFile,File
 import pandas as pd
-from app.model import model,encoder
+from model import model, encoder
 from io import StringIO
 
 app=FastAPI()
